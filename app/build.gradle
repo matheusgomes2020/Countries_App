@@ -3,6 +3,9 @@ plugins {
     alias(libs.plugins.jetbrainsKotlinAndroid)
 }
 
+apply from: '../config/detekt/detekt.gradle'
+
+
 android {
     namespace 'com.matheus.countriesapp'
     compileSdk 34

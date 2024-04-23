@@ -21,3 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Countries App"
 include ':app'
+include ':core'
