@@ -4,6 +4,6 @@ import com.matheus.core.domain.model.Country
 
 interface CountriesRepository {
 
-    fun getAllCountries(): List<Country>
+    suspend fun getAllCountries(): List<Country>
 
 }
